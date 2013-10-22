@@ -1,0 +1,18 @@
+button :create_group, :id => "jbpns_2fgroundwork_2dmonitor_2fadmin_2fcustomgroupsview_2fCustomGroupInstanceWindowsnpbj:cgListFrm:btn_add"
+
+    text_field :customGroup_name, :class =>"iceInpTxt portlet-form-input-field text"
+    select_list :host_name_list, :id =>"jbpns_2fgroundwork_2dmonitor_2fadmin_2fcustomgroupsview_2fCustomGroupInstanceWindowsnpbj:createCustomGroupForm:SlctChildren_leftList"
+
+    button :add_host_button, :id => "jbpns_2fgroundwork_2dmonitor_2fadmin_2fcustomgroupsview_2fCustomGroupInstanceWindowsnpbj:createCustomGroupForm:SlctChildren_addBtn"
+    button :save_publish_button, :id => "jbpns_2fgroundwork_2dmonitor_2fadmin_2fcustomgroupsview_2fCustomGroupInstanceWindowsnpbj:createCustomGroupForm:btn_publish"
+
+    span :customGroupCreated, :id => "jbpns_2fgroundwork_2dmonitor_2fadmin_2fcustomgroupsview_2fCustomGroupInstanceWindowsnpbj:cgListFrm:customGroups:0:groupName"
+    span :customGroup_state, :id => "jbpns_2fgroundwork_2dmonitor_2fadmin_2fcustomgroupsview_2fCustomGroupInstanceWindowsnpbj:cgListFrm:customGroups:0:groupState"
+
+    checkbox :custom_group, :id => "jbpns_2fgroundwork_2dmonitor_2fadmin_2fcustomgroupsview_2fCustomGroupInstanceWindowsnpbj:cgListFrm:customGroups:0:j_id17"
+    button :delete_custom_group_button, :id => "jbpns_2fgroundwork_2dmonitor_2fadmin_2fcustomgroupsview_2fCustomGroupInstanceWindowsnpbj:cgListFrm:btn_delete"
+    button :confirm_delete_custom_group, :id => "jbpns_2fgroundwork_2dmonitor_2fadmin_2fcustomgroupsview_2fCustomGroupInstanceWindowsnpbj:cgListFrm:deleteConfirmPanel-accept"
+
+    button :edit_custom_group, :id => "jbpns_2fgroundwork_2dmonitor_2fadmin_2fcustomgroupsview_2fCustomGroupInstanceWindowsnpbj:cgListFrm:customGroups:0:j_id17"
+    button :remove_host_button, :id => "jbpns_2fgroundwork_2dmonitor_2fadmin_2fcustomgroupsview_2fCustomGroupInstanceWindowsnpbj:editCustomGroupForm:SlctChildren_removeBtn"
+    text_field :email_element, :id => "Email"
