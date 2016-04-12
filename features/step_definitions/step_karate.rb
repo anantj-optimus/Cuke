@@ -5,7 +5,7 @@ Given /^I navigate to Google$/ do
 end
 
 
-When /^I enter into the search field "(./*)"$/ do |pass|
+When /^I enter into the search field  (\w+)$/ do |pass|
 on lib do |page|
 page.email_element.set pass
 end
